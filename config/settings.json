@@ -1,5 +1,23 @@
 {
-  "capture_interval": 1.5,           // seconds between captures
-  "zoom_window": {...},              // full zoom window
-  "waiting_room_region": {...}       // crop coordinates
+  "capture_interval": 1.5,
+  "zoom_window": {
+    "x": 0,
+    "y": 0,
+    "width": 1920,
+    "height": 1080
+  },
+  "waiting_room_region": {
+    "x": 500,
+    "y": 100,
+    "width": 600,
+    "height": 700
+  },
+  "admit_button_offset": {
+    "x": 50,
+    "y": 0
+  },
+  "tesseract_path": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+  "min_confidence": 0.7,
+  "name_match_threshold": 0.85,
+  "delay_between_admits": 0.5
 }
