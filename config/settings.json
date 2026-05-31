@@ -1,0 +1,5 @@
+{
+  "capture_interval": 1.5,           // seconds between captures
+  "zoom_window": {...},              // full zoom window
+  "waiting_room_region": {...}       // crop coordinates
+}
